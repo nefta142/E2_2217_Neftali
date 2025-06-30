@@ -64,7 +64,7 @@
         <email>lucia@example.com</email>
         <telefono>601333444</telefono>
       </contacto>
-      <departamento>D0004</departamento>
+      <departamento>Tecnología</departamento>
     </empleado>
     <empleado cod="E0008">
       <nombre>Iván</nombre>
@@ -73,7 +73,7 @@
         <email>ivan@example.com</email>
         <telefono>601555666</telefono>
       </contacto>
-      <departamento>D0004</departamento>
+      <departamento>Tecnología</departamento>
     </empleado>
     <empleado cod="E0009">
       <nombre>Teresa</nombre>
@@ -82,7 +82,7 @@
         <email>teresa@example.com</email>
         <telefono>601777888</telefono>
       </contacto>
-      <departamento>D0004</departamento>
+      <departamento>Tecnología</departamento>
     </empleado>
     <empleado cod="E0010">
       <nombre>Mario</nombre>
@@ -134,7 +134,7 @@
         <email>david@consulting.com</email>
         <telefono>610444444</telefono>
       </contacto>
-      <departamento>D0004</departamento>
+      <departamento>Tecnología</departamento>
       <empresaExterna>Consultores SA</empresaExterna>
     </consultor>
     <consultor cod="C0005">

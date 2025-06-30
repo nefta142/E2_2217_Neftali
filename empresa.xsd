@@ -25,11 +25,26 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                 <xs:element name="email" type="xs:string"/>
-                                                <xs:element name="telefono" type="xs:string"/>
+                                                <xs:element name="telefono">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:pattern value="[0-9]{9}"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="departamento" type="xs:string"/>
+                                        <xs:element name="departamento">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Tecnología"/>
+                                                    <xs:enumeration value="Contabilidad"/>
+                                                    <xs:enumeration value="Recursos Humanos"/>
+                                                    <xs:enumeration value="Marketing"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                     </xs:sequence>
                                     <xs:attribute name="cod" use="required">
                                         <xs:simpleType>
@@ -66,11 +81,26 @@
                                             <xs:complexType>
                                                 <xs:sequence>
                                                 <xs:element name="email" type="xs:string"/>
-                                                <xs:element name="telefono" type="xs:string"/>
+                                                <xs:element name="telefono">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:pattern value="[0-9]{9}"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
-                                        <xs:element name="departamento" type="xs:string"/>
+                                        <xs:element name="departamento">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="Tecnología"/>
+                                                    <xs:enumeration value="Contabilidad"/>
+                                                    <xs:enumeration value="Recursos Humanos"/>
+                                                    <xs:enumeration value="Marketing"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
                                         <xs:element name="empresaExterna" type="xs:string"/>
                                     </xs:sequence>
                                     <xs:attribute name="cod" use="required">
